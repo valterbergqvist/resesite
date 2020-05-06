@@ -3,10 +3,27 @@ body {
 	margin: 0px;
 	padding: 0px;
 	 font-family: 'Kalam';font-size: 50px;
+	 
 	
 }
 .bakgrund{
 	background-color:lightblue;color:white;padding:20px;
+}
+.test {
+	background-image: background-image: url(../images/beach.jpg); 
+}
+.hawaiilogo {
+	width: 100px;
+}
+.logga1{
+	width: 50px; height: 50px;
+}
+.logga2{
+	width: 50px; height: 40px;
+}
+
+.logga3{
+	width: 50px; height: 40px;
 }
 
 .greeting {
@@ -18,9 +35,14 @@ body {
   justify-content: center;
   align-items: center;
    position: absolute;
-  left: 50px;
+ 
   top: 300px;
+  width:50 height:50;
+  width:50 height:40;
+
 }
+
+
 .contact {
 font-size: 20px
 }
@@ -51,36 +73,14 @@ header {
 .container {
 	height: 100vh;
 	width: 100%;
-	/*background-image: url("images/beach.jpg");*/
+	
 	background-size: cover;
-	/*background-position: center;
-	background-repeat: no-repeat;*/
-	/*transition: 5s;*/
-    
     animation: animate 20s infinite;
    -moz-animation: animate 20s infinite;
-   -webkit-animation: animate 20s infinite;
-	/*animation-name: animate;
-	animation-direction: alternate-reverse;
-	animation-duration: 1s;
-	animation-fill-mode: forwards;
-	animation-iteration-count: infinite;
-	animation-play-state: running;
-	animation-timing-function:ease-in-out;*/
-
-
-	}
+   -webkit-animation: animate 20s infinite;	
+}
 	
-/*
-	/.banner {
-		position: relative;
-		width: 90%;
-		margin: auto; 
-
-	}
-	.heading {
-		color: black; position: absolute; top: 50%; width: 100% text-align: center;
-	}*/
+	
       
   p {
   	font-size: 20%;
@@ -151,12 +151,22 @@ h4 {
   flex-wrap: wrap;
 }
 
-/* Create two unequal columns that sits next to each other */
+/* Create two columns that sits next to each other */
 /* Sidebar/left column */
 .side {
   flex: 30%;
   background-color: #f1f1f1;
   padding: 20px;
+}
+
+.bild1{
+	width: 600px;
+}
+.bild2{
+	width: 800px;
+}
+.bild3{
+	width: 800px;
 }
 
 /* Main column */
@@ -166,7 +176,7 @@ h4 {
   padding: 20px;
 }
 
-/* Fake image, just for this example */
+/* Fake image*/
 .fakeimg {
   background-color: #aaa;
   width: 100%;
